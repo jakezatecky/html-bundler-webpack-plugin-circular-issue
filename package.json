@@ -12,7 +12,7 @@
   },
   "author": "",
   "license": "MIT",
-  "dependencies": {
+  "devDependencies": {
     "@eslint/js": "^9.35.0",
     "eslint": "^9.35.0",
     "eslint-import-resolver-webpack": "^0.13.10",
@@ -20,9 +20,7 @@
     "globals": "^16.4.0",
     "html-bundler-webpack-plugin": "^4.21.1",
     "webpack": "^5.101.3",
-    "webpack-cli": "^6.0.1"
-  },
-  "devDependencies": {
+    "webpack-cli": "^6.0.1",
     "webpack-dev-server": "^5.2.2"
   }
 }
