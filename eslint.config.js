@@ -18,8 +18,12 @@ export default [
             globals: globals.browser,
         },
         settings: {
-            // Account for webpack.resolve.module imports
             'import/resolver': {
+                node: {
+                    extensions: ['.js']
+                },
+
+                // Account for webpack.resolve.module imports
                 webpack: {
                     config: webpackConfig,
                 },
